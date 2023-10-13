@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Portfolio Card</string>
+    <string name="person_name">Kunal</string>
+    <string name="title">Android Developer</string>
+    <string name="phone">(IN)+91 8604329827</string>
+    <string name="linkedIn">linkedin.com/in/kunal7266</string>
+    <string name="email">kunalab80@gmail.com</string>
+</resources>
