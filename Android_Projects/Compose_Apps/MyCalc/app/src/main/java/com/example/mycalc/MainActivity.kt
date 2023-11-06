@@ -38,15 +38,7 @@ class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
-			MyCalcTheme {
-				// A surface container using the 'background' color from the theme
-				Surface(
-					modifier = Modifier.fillMaxSize(),
-					color = MaterialTheme.colorScheme.background
-				) {
-					CalculatorApp()
-				}
-			}
+			CalculatorApp()
 		}
 	}
 }
@@ -61,15 +53,13 @@ fun CalculatorApp() {
 		Text(fontSize = 34.sp,
 			text = calculationText
 		)
-		Column(
+		Box(
 			modifier = Modifier
-				.padding(15.dp),
-			horizontalAlignment = Alignment.End
+				.fillMaxSize()
 		) {
-			Row (
+			Row(
 				modifier = Modifier
-					.padding(15.dp)
-			){
+			) {
 				Button(onClick = { calculationText = "" }) {
 					Text(text = "C")
 				}
@@ -77,7 +67,7 @@ fun CalculatorApp() {
 					Text(text = "%")
 				}
 				Button(onClick = {
-				
+					
 				}) {
 					Text(text = "del")
 				}
@@ -90,14 +80,14 @@ fun CalculatorApp() {
 				Button(onClick = { calculationText += "1" }) {
 					Text(text = "1")
 				}
-				Button(onClick = { calculationText +="2" }) {
+				Button(onClick = { calculationText += "2" }) {
 					Text(text = "2")
 				}
-				Button(onClick = { calculationText +="3" }) {
+				Button(onClick = { calculationText += "3" }) {
 					Text(text = "3")
 				}
 				Button(onClick = {
-					calculationText +="X"
+					calculationText += "X"
 					
 				}) {
 					Text(text = "X")
@@ -105,51 +95,50 @@ fun CalculatorApp() {
 				
 			}
 			Row {
-				Button(onClick = { calculationText +="4" }) {
+				Button(onClick = { calculationText += "4" }) {
 					Text(text = "4")
 				}
-				Button(onClick = { calculationText +="5" }) {
+				Button(onClick = { calculationText += "5" }) {
 					Text(text = "5")
 				}
-				Button(onClick = { calculationText +="6" }) {
+				Button(onClick = { calculationText += "6" }) {
 					Text(text = "6")
 				}
-				Button(onClick = { calculationText +="-" }) {
+				Button(onClick = { calculationText += "-" }) {
 					Text(text = "-")
 				}
 				
 			}
 			Row {
-				Button(onClick = { calculationText +="7" }) {
+				Button(onClick = { calculationText += "7" }) {
 					Text(text = "7")
 				}
-				Button(onClick = { calculationText +="8"}) {
+				Button(onClick = { calculationText += "8" }) {
 					Text(text = "8")
 				}
-				Button(onClick = { calculationText +="9" }) {
+				Button(onClick = { calculationText += "9" }) {
 					Text(text = "9")
 				}
-				Button(onClick = { calculationText +="+" }) {
+				Button(onClick = { calculationText += "+" }) {
 					Text(text = "+")
 				}
 				
 			}
 			Row {
-				Button(onClick = { calculationText +="00" }) {
+				Button(onClick = { calculationText += "00" }) {
 					Text(text = "00")
 				}
-				Button(onClick = { calculationText +="0" }) {
+				Button(onClick = { calculationText += "0" }) {
 					Text(text = "0")
 				}
-				Button(onClick = { calculationText +="." }) {
+				Button(onClick = { calculationText += "." }) {
 					Text(text = ".")
 				}
-				Button(onClick = {  }) {
+				Button(onClick = { }) {
 					Text(text = "=")
 				}
 				
 			}
-			
 		}
 	}
 }
