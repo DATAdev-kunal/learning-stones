@@ -55,14 +55,14 @@ fun MakeTheLemonadeApp(modifier: Modifier = Modifier
     var imageSelector = when(nextImage) {
         1 -> R.drawable.lemon_tree
         2 -> R.drawable.lemon_squeeze
-        3 -> R.drawable.lemonade_drink
+        3 -> R.drawable.lemon_drink
         else -> R.drawable.lemon_restart
     }
 
     var stringSelector = when (imageSelector) {
         R.drawable.lemon_tree -> R.string.lemon_tree
         R.drawable.lemon_squeeze -> R.string.lemon_squeeze
-        R.drawable.lemonade_drink -> R.string.lemonade_drink
+        R.drawable.lemon_drink -> R.string.lemonade_drink
         else -> R.string.empty_glass
     }
     Column(modifier = modifier,

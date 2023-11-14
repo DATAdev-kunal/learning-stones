@@ -67,7 +67,7 @@ fun Portfolio(modifier: Modifier = Modifier) {
 //                .wrapContentHeight()
                 .padding(20.dp, 100.dp, 20.dp, 20.dp)
         ) {
-            val image = painterResource(R.drawable.profile_img)
+            val image = painterResource(R.drawable.android_ic_foreground)
             Image(
                 painter = image,
                 contentDescription = "This is the profile image",

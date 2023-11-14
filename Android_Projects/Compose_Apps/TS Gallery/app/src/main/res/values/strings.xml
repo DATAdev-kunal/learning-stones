@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TS Gallery</string>
+
+    <string name="album_1">Taylor Swift</string>
+    <string name="album_2">Fearless</string>
+    <string name="album_3">Speak Now</string>
+    <string name="album_4">Red</string>
+    <string name="album_5">1989</string>
+    <string name="album_6">Reputation</string>
+    <string name="album_7">Lover</string>
+    <string name="album_8">Folklore</string>
+    <string name="album_9">Evermore</string>
+    <string name="album_10">Fearless Taylor\'s Version</string>
+    <string name="album_11">Red Taylor\'s Version</string>
+    <string name="album_12">Midnights</string>
+    <string name="album_13">Speak Now Taylor\'s Version </string>
+    <string name="album_14">1989 Taylor\'s Version </string>
+
+
+    <string name="no_of_tracks_album_1">30 tracks</string>
+    <string name="no_of_tracks_album_2">26 tracks</string>
+    <string name="no_of_tracks_album_3">14 tracks</string>
+    <string name="no_of_tracks_album_4">32 tracks</string>
+    <string name="no_of_tracks_album_5">13 tracks</string>
+    <string name="no_of_tracks_album_6">15 tracks</string>
+    <string name="no_of_tracks_album_7">19 tracks</string>
+    <string name="no_of_tracks_album_8">16 tracks</string>
+    <string name="no_of_tracks_album_9">15 tracks</string>
+    <string name="no_of_tracks_album_10">26 tracks</string>
+    <string name="no_of_tracks_album_11">30 tracks</string>
+    <string name="no_of_tracks_album_12">13 tracks</string>
+    <string name="no_of_tracks_album_13">22 tracks</string>
+    <string name="no_of_tracks_album_14">coming soon</string>
+
+    <string name="album_year_1">2006</string>
+    <string name="album_year_2">2008</string>
+    <string name="album_year_3">2010</string>
+    <string name="album_year_4">2012</string>
+    <string name="album_year_5">2014</string>
+    <string name="album_year_6">2017</string>
+    <string name="album_year_7">2019</string>
+    <string name="album_year_8">2020</string>
+    <string name="album_year_9">2020</string>
+    <string name="album_year_10">2021</string>
+    <string name="album_year_11">2021</string>
+    <string name="album_year_12">2022</string>
+    <string name="album_year_13">2023</string>
+    <string name="album_year_14">2023</string>
+
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+
+</resources>
