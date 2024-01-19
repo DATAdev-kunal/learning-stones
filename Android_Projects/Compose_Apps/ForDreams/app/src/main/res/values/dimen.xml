@@ -3,6 +3,6 @@
 
     <dimen name="padding_small">8dp</dimen>
     <dimen name="padding_medium">16dp</dimen>
-    <dimen name="image_size">74dp</dimen>
+    <dimen name="image_size">450dp</dimen>
 
 </resources>
