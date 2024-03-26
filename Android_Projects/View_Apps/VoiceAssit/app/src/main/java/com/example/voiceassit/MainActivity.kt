@@ -12,15 +12,12 @@ import android.widget.Toast
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
-
-
     private val RQ_SPEECH_REC = 102
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
          val gTTSbutton = findViewById<Button>(R.id.bt)
-
-m
+        
         gTTSbutton.setOnClickListener{
             askSpeechInput()
         }
