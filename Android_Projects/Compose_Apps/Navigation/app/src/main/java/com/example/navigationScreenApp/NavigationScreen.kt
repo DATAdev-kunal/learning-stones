@@ -27,7 +27,10 @@ import androidx.navigation.navArgument
 @Composable
 fun Navigation(){
 	val navController = rememberNavController()
-	NavHost(navController = navController, startDestination = Screen.MainScreen.route){
+	NavHost(
+		navController = navController,
+		startDestination = Screen.MainScreen.route
+	){
 		composable(route = Screen.MainScreen.route){
 			MainScreen(navController = navController)
 		}
@@ -46,49 +49,3 @@ fun Navigation(){
 		}
 	}
 }
-
-@Composable
-fun MainScreen(navController: NavController){
-	var text by remember {
-		mutableStateOf("")
-	}
-	Column(
-		verticalArrangement = Arrangement.Center,
-		modifier= Modifier
-			.fillMaxWidth()
-			.padding(horizontal = 50.dp)
-		
-	) {
-		TextField(
-			value = text,
-			onValueChange = {
-				text = it
-			},
-			modifier = Modifier
-				.fillMaxWidth()
-		)
-		Spacer(modifier = Modifier.height(8.dp) )
-		Button(
-			onClick = {
-				navController.navigate(Screen.DetailScreen.withArgs(text))
-			},
-//			modifier = Modifier.align(Alignment.)
-		) {
-				Text(text = "To Detail Screen")
-		}
-	}
-}
-
-@Composable
-fun DetailScreen(name: String?){
-	Box(
-	){
-		Text(text = "Hello $name")
-	}
-}
-
-//@Preview
-//@Composable
-//fun MainScreenPreview(){
-//	MainScreen(navController = NavController(context =))
-//}
