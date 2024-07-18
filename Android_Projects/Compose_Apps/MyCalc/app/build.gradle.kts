@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-	namespace = "com.example.mycalc"
+	namespace = "com.giantnovadevs.mycalc"
 	compileSdk = 34
 	
 	defaultConfig {
-		applicationId = "com.example.mycalc"
+		applicationId = "com.giantnovadevs.mycalc"
 		minSdk = 24
 		targetSdk = 33
 		versionCode = 1
@@ -66,4 +66,6 @@ dependencies {
 	androidTestImplementation("androidx.compose.ui:ui-test-junit4")
 	debugImplementation("androidx.compose.ui:ui-tooling")
 	debugImplementation("androidx.compose.ui:ui-test-manifest")
+	
+	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.2")
 }
