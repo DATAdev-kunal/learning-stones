@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c24bd82-8c3c-4822-958d-c6f597761348" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3/windows-amd64/native-platform-file-events.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0d407fdbe67a94daf76414ababcb853783967236a71b16ec16e742cd7a986fd3/windows-amd64/native-platform-file-events.dll.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5/windows-amd64/native-platform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e1d6ef7f7dcc3fd88c89a11ec53ec762bb8ba0a96d01ffa2cd45eb1d1d8dd5c5/windows-amd64/native-platform.dll.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jansi/1.18/windows64/jansi.dll" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2X3pqV9VnRw6f4r0tPYqJBzfmJ6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/kunal/LEARNING_PROJECTS/Android_Projects/Compose_Apps/MyCalc"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c24bd82-8c3c-4822-958d-c6f597761348" name="Changes" comment="" />
+      <created>1697867808401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697867808401</updated>
+    </task>
+    <servers />
+  </component>
+</project>
