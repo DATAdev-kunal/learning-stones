@@ -1,17 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("kotlin-kapt")
-    id("com.google.dagger.hilt.android")
-
+    /*id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")*/
 }
 
 android {
-    namespace = "me.giantnova.weatherapp"
+    namespace = "com.example.openweatherapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "me.giantnova.weatherapp"
+        applicationId = "com.example.openweatherapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -72,9 +71,12 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     // Hilt
-    implementation(libs.hilt.android.v2511)
-    kapt(libs.hilt.android.compiler)
-    implementation(libs.androidx.hilt.navigation.compose)
+    /*implementation(libs.hilt.android.v2511)
+    kapt(libs.hilt.android.compiler)*/
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.ui.test.android)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.constraintlayout.compose)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
